@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- spectral font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Script Javascript -->
+    <!-- <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/masonry.js"></script>
+    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/imagesLoaded.js"></script> -->
+</head>
+
+<body>
+    <!-- navbar and container -->
+    <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+        <div class="container">
+            <!-- button will appear when small screen -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- list item of navbar -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item">
+                        <a href="#question" class="nav-link">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#feature" class="nav-link">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- filtering images -->
+    <section id="portfolio" class="imagePortfolio">
+        <ul class="cats-filter" id="portfolio-filter">
+            <li><a href="" class="current transition" data-filter="*">All</a></li>
+            <li><a href="" class="current transition" data-filter=".webdesign">Web Design</a></li>
+            <li><a href="" class="current transition" data-filter=".photography">photography</a></li>
+            <li><a href="" class="current transition" data-filter=".illustration">illustration</a></li>
+            <li><a href="" class="current transition" data-filter=".print">Print</a></li>
+            <li><a href="" class="current transition" data-filter=".animation">animation</a></li>
+        </ul>
+        <div class="extra-text">Some project that i love with</div>
+        <!-- for images -->
+        <ul id="portfolio-list">
+            <li class="illustration-print">
+                <a href="" class="folio"></a>
+                <img src="./img/mountain.jpg" alt="" class="card_medium">
+                <h2 class="title">Hello World</h2>
+                <span class="categorie">Print / illustration</span>
+            </li>
+            <li class="webdesign">
+                <a href="" class="folio"></a>
+                <img src="img/2-thumb.jpg" alt="">
+                <h2 class="title">Show Time</h2>
+                <span class="categorie">Web Design</span>
+            </li>
+            <li class="photoghrapy">
+                <a href="" class="folio"></a>
+                <img src="img/3-thumb.jpg" alt="">
+                <h2 class="title">Help Us</h2 class="title">
+                <span class="categorie">photoghrapy</span>
+            </li>
+            <li class="animation print">
+                <a href="" class="folio"></a>
+                <img src="img/4-thumb.jpg" alt="">
+                <h2 class="title">Become a Sunshine</h2>
+                <span class="categorie">Print / animation</span>
+            </li>
+            <li class="animation">
+                <a href="" class="folio"></a>
+                <img src="img/5-thumb.jpg" alt="">
+                <h2 class="title">Come together</h2>
+                <span class="categorie">animation</span>
+            </li>
+            <li class="webdesign print">
+                <a href="" class="folio"></a>
+                <img src="img/6-thumb.jpg" alt="">
+                <h2 class="title">The Yellow</h2>
+                <span class="categorie">Print / webdesign</span>
+            </li>
+            <li class="photoghrapy">
+                <a href="" class="folio"></a>
+                <img src="img/7-thumb.jpg" alt="">
+                <h2 class="title">Blackcird</h2>
+                <span class="categorie">photoghrapy</span>
+            </li>
+            <li class="illustration">
+                <a href="" class="folio"></a>
+                <img src="./img/8-thumb.jpg" alt="">
+                <h2 class="title">Revolution</h2>
+                <span class="categorie">illustration</span>
+            </li>
+        </ul>
+    </section>
+    <!-- end filtering images -->
+    <!-- work -->
+    <!--/.tab-panel -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js" charset="utf-8"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
