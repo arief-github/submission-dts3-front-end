@@ -1,0 +1,854 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* MAIN CSS */
+
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    height: 100px;
+    background-color: #21272f;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hdr{
+    
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+}
+
+.item-2 {
+    width: 500px;
+    flex-grow: 1;
+}
+
+.item-2 ul{
+    margin: auto;
+    font-size: 18px;
+    
+}
+
+.item-2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 50px;
+    
+}
+
+.item-2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.item-2 ul li a:hover {
+    color: #00bd95;
+    transition: .3s;
+}
+
+.portofolio{
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-start;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+.logo{
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.logo-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700px;
+    font-size: 24px;
+    font-family: 'Finlandica', sans-serif;
+    color: white;
+}
+
+.section-1{
+    display: flex;
+    min-height: calc(100vh - 100px);
+    background-color: #21272f;
+}
+
+.section-2{
+    display: flex;
+    background-color: #171c23;
+    
+    flex-grow: 1;
+}
+
+.section-3 {
+    display: flex;
+    background-color: #21272f;
+    height: 700px;
+}
+
+.section-4 {
+    display: flex;
+        background-color: #171c23;
+       
+        flex-grow: 1;
+}
+
+.wrapper-sec-2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.wrapper-sec-3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.wrapper-sec-4 {
+    display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+}
+
+.wrapper-sec-2 .upper{
+    display: flex;
+    flex-grow: 0;
+    background-color: #171c23;
+    flex-direction: column;
+}
+
+.wrapper-sec-2 .lower {
+    display: flex;
+    flex-grow: 1;
+    background-color: #171c23;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    background-color: #21272f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 170px;
+    margin-top: 100px;
+}
+
+.card-1{
+    margin-left: 90px;
+}
+
+.card-title{
+    margin-top: 30px;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-desc {
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card img{
+    margin-top: 50px;
+    width: 110px;
+    
+}
+
+.card-3 {
+    margin-right: 90px;
+}
+
+.wrapper-sec-3 .upper {
+    display: flex;
+        flex-grow: 0;
+        background-color: #21272f;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.ido {
+    margin-left: 90px;
+    color: white;
+}
+
+.ido-item-1{
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+.ido-item-1 span{
+    color: #00bd95;
+}
+
+.ido-item-2 {
+    margin-top: 20px;
+    font-size: 54px;
+}
+
+.caro {
+    color: white;
+}
+
+.caro-item-1 {
+    margin-top: 100px;
+    font-size: 54px;
+}
+
+.caro-item-1 span {
+    color: #00bd95;
+}
+
+.caro-item-2 {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 400px;
+    line-height: 1.4;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-sec-3 .lower {
+    display: flex;
+    flex-grow: 2;
+    background-color:#21272f;
+}
+
+.wrapper-sec-4 .upper {
+    display: flex;
+        flex-grow: 0;
+        background-color: #171c23;
+        flex-direction: column;
+}
+
+.wrapper-sec-4 .lower {
+display: flex;
+    flex-grow: 1;
+    background-color: #171c23;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.sidebar {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    background-color: #21272f;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.sidebar a{
+    margin-top: 80px;
+    margin-left: 90px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(90deg, #18CD8A 0%, #00BD95 100%);
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    filter: drop-shadow(0px 15px 17px rgba(0, 189, 149, 0.31));
+}
+
+.bio{
+    margin-left: 90px;
+}
+
+.sidebar .hijau {
+    color: #00bd95;
+}
+
+.bio-item-1 {
+    font-size: 44px;
+    margin-top: 70px;
+}
+
+.bio-item-2 {
+    margin-top: 15px;
+    font-size: 74px;
+    color: #00bd95;
+}
+
+.bio-item-3 {
+    margin-top: 15px;
+    font-size: 44px;
+    line-height: 1.2;
+    
+}
+
+.bio-item-4 {
+    margin-top: 40px;
+    font-size: 15px;
+    width: 600px;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sosmed {
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.content {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #21272f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img{
+    height: 580px;
+    margin-right: 90px;
+}
+
+.inner-text{
+    font-weight: 700px;
+    font-size: 24px;
+    margin: auto;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    
+    background-color: #21272f;
+    display: flex;
+    flex-grow: 1;
+}
+
+.block{
+    flex-basis: 20%;
+        flex-grow: 1;
+        padding-top: 50px;
+}
+
+.block-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-footer{
+    font-weight: 700px;
+        font-size: 35px;
+        font-family: 'Finlandica', sans-serif;
+        color: white;
+        margin-right: 100px;
+        margin-top: 10px;
+        margin-left: 90px;
+}
+
+.block-2 {
+    display: flex;
+}
+
+.b-2{
+    color: white;
+}
+
+.block-2-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adress{
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+}
+
+.phone_number{
+    margin-top: 80px;
+    font-weight: 200;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+}
+
+.email {
+    margin-bottom: 50px;
+    font-weight: 200;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+}
+
+.block-3 {
+    
+    display: flex;
+}
+
+.b-3 {
+    color: white;
+    font-weight: 200;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+}
+
+.block-3-wrapper .menu-6{
+    font-size: 13px;
+}
+
+.block-3-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.menu-6{
+    margin-top: 60px;
+}
+
+.block-4 {
+    display: flex;
+}
+
+.b-4 {
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.block-4-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.block-5 {
+    color: white;
+}
+
+.block-5 a{
+    color: white;
+        text-decoration: none;
+        background: linear-gradient(90deg, #18CD8A 0%, #00BD95 100%);
+        text-align: center;
+        width: 100px;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+        filter: drop-shadow(0px 15px 17px rgba(0, 189, 149, 0.31));
+}
+
+.skill-1{
+    margin-left: 90px;
+}
+
+.skill-5{
+    margin-right: 90px;
+}
+
+@media only screen and (max-width: 600px){
+    .card-title {
+        margin-top: 30px;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    .bio-item-1 {
+        margin-top: 60px;
+        font-size: 28px !important;
+    }
+
+    .bio-item-2 {
+
+        font-size: 34px !important;
+
+    }
+
+    .bio-item-3 {
+
+        font-size: 20px !important;
+        width: 300px;
+    }
+
+    .bio-item-4 {
+        line-height: 1.4;
+        font-size: 12px;
+        width: 300px !important;
+    }
+
+    .sidebar a {
+        margin-left: 30px;
+    }
+
+    .item-2{
+        display: none;
+    }
+
+    .bio{
+        margin-left: 30px;
+    }
+
+    .ido{
+        margin-left: 40px;
+    }
+
+    .content img {
+        height: 250px !important;
+    }
+
+
+
+    .card{
+        height: 350px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    .card img {
+        margin-top: 50px;
+        width: 80px;
+    }
+
+    .card-desc {
+        margin-top: 40px;
+        color: white;
+        font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        font-weight: 200;
+        line-height: 1.4;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .section-3{
+        display: none;
+    }
+
+    .card {
+        width: 300px; 
+    }
+
+    .block-5{
+        display: none;
+    }
+
+    .card-3{
+        margin-bottom: 0px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .section-1 {
+        flex-direction: column;
+    }
+
+    .item-3{
+        display: none;
+    }
+
+    
+
+    .card-2 {
+        margin-right: 90px;
+        margin-bottom: 0;
+        margin-left: 90px;
+    }
+
+    .card-3 {
+        margin-left: 90px;
+
+    }
+
+    .content img {  
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1080px)
+{
+    .card-1 {
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+
+    .item-3{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    
+    .wrapper-sec-4 .lower{
+        flex-wrap: wrap;
+    }
+
+    .skill{
+        margin: 0px 90px;
+    }
+
+    .bio-item-1 {
+        margin-top: 60px;
+    }
+    
+    .bio-item-2 {
+        
+        font-size: 54px;
+        
+    }
+
+    .bio-item-3 {
+        
+        font-size: 30px;
+        
+    }
+
+    .bio-item-4 {
+        line-height: 1.4;
+        font-size: 12px;
+
+    }
+
+    .sidebar a {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .wrapper-sec-2 .lower {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-1{
+        margin-bottom: 0;
+    }
+
+    .card-2 {
+        margin-right: 90px;
+        margin-bottom: 0;
+        margin-left: 90px;
+    }
+
+    .card-3 {
+        margin-left: 90px;
+
+    }
+
+    .bio-item-1 {
+        font-size: 34px;
+        margin-top: 70px;
+    }
+    
+    .bio-item-2 {
+        margin-top: 20px;
+        font-size: 64px;
+        color: #00bd95;
+    }
+
+    .bio-item-3 {
+        margin-top: 20px;
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .bio-item-4 {
+        margin-top: 30px;
+        width: 400px;
+        line-height: 1.4;
+        
+    }
+
+    .sidebar a{
+        margin-top: 40px;
+    }
+
+    .content img {
+        height: 450px;
+    }
+}
